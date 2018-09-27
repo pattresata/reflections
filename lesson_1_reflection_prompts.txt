@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Without comparing, I would have had to read through the new version and
+    try to find a mistake. Finding the mistake that way is much harder than
+    doing a comparison of two versions, especially if software tools make 
+    the comparison for you.
+        
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You have a more precise idea of every change that you make to a program.
+    That way, you can compare individual changes in programming to how well
+    the program works, making improvements and finetuning much easier.:w
+
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros: You can make the commits more accurately reflect the flow of work,
+    especially the appropriate amount of work for a commit (unlike automated
+    systems).
+    
+    Cons: Git requires active and intentional effort by the programmer; if 
+    that effort doens't exist, then versions don't get save, and the workflow
+    gets disrupted.
+     
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Saving multiple files in a single commit is more complicated and harder
+    to understand. That complexity might turn off the mass audience that
+    Google is targeting. Google also saves a new version with every single 
+    change. If this was possible for groups of files, the resulting complexity
+    might overwhelm even Google.
+        
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log provides a list of every commit (or set of changes) made to the
+    repo group of files. If you want to look at specific changes, you can use
+    git diff to compare the changes between two files.
+    
+How might using version control make you more confident to make changes that
+could break something?
+
+    If you make the changes and they don't work, you can simply go back to
+    an earlier version of code and start again on another version of the
+    changes. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I would like to check code in and out of our company's code writing
+    process. Eventually, it would be helpful to develop my own Github
+    repository.
