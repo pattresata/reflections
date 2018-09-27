@@ -16,6 +16,12 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+  Before you do the actual commit, make sure to check the staging area, 
+  particularly the difference between the working directory and staging
+  area (using the command "git diff" with no arguments). The results wil
+  provide a clear list of all the changes that would go into the commit
+  if you do it.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
