@@ -3,4 +3,12 @@ When would you want to use a remote repository rather than keeping all your work
   If you are working on multiple computers, it may be easier to add new files in github
   rather than each local computer. The former allow you to avoid all the commits that
   would be required with pushing local files to github.
+
+Why might you want to always pull changes manually rather than having Git automatically 
+stay up-to-date with your remote repository?
+
+  You may not want to all your local changes with collaborators working through your
+  remote repo, at least not until you decide that those changes are ready to be merged
+  with the main or master branch of the project.
+  
   
