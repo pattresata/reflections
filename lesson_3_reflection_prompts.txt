@@ -11,4 +11,23 @@ stay up-to-date with your remote repository?
   remote repo, at least not until you decide that those changes are ready to be merged
   with the main or master branch of the project.
   
+ Describe the differences between forks, clones, and branches. When would you use one
+ instead of another?
+ 
+  A branch is a single path of commits (although it could contain multiple merged
+  sub-branches. A clone is a copy of a Github repo downloaded to a local computer. A
+  fork is a copy of a Github repo copied to another user's Github account. Branches 
+  are used everywhere, including in clones and forks. You clone a Github repo when
+  you want a copy on a local computer. You fork a Github repo when you want to copy
+  the repo to another Github account and still acknowledge the origin of that new
+  Github repo.
   
+What is the benefit of having a copy of the last known state of the remote stored
+locally?
+
+  If you are working from that last known state in your local work, any additional
+  commits that you do locally can be easily merged with the last known state, both
+  locally and remotely, via a fast-forward merge. So, you can use git push with 
+  lower likelihood of conflicts.
+  
+ 
