@@ -1,0 +1,6 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+  If you are working on multiple computers, it may be easier to add new files in github
+  rather than each local computer. The former allow you to avoid all the commits that
+  would be required with pushing local files to github.
+  
