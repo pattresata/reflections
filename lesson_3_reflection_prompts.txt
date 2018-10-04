@@ -30,4 +30,23 @@ locally?
   locally and remotely, via a fast-forward merge. So, you can use git push with 
   lower likelihood of conflicts.
   
- 
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+  We share different versions of files and try to keep track of them, particularly
+  the order in which they run. Version control is much easier in Git/Hub. The 
+  only thing that is harder is understanding how to use Git/Hub.
+  
+When would you want to make changes in a separate branch rather than directly in
+master? what benefits does each approach have?
+
+  If you make changes in master, it is less complicated to add your changes to
+  the overall master on Github. But, you are changing the master without getting
+  input on those changes, and there's no one in charge of approving changes, 
+  which could take the master down a twisting path of changes if multiple people
+  are adding changes at the same time. Making changes to a separate branch is
+  more complicated, but creates a workflow where the lead of a project can
+  review and approach all changes before they are added to the remote, overall
+  master on github.
+  
+   
